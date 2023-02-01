@@ -1,0 +1,58 @@
+.container {
+  width: 80%;
+  height: 5rem;
+  margin: 20px auto;
+  padding-left: 10px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 60px;
+  height: 60px;
+}
+
+.button {
+  background-image: url("../assets/arrow.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 6rem;
+  height: 5rem;
+  border-right: none;
+}
+
+.innerContainer {
+  width: 100%;
+  height: 5rem;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.name {
+  text-align: left;
+}
+
+.nickName {
+  width: fit-content;
+  padding: 0px 2px;
+  border: 1px solid #565656;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.favouritesField {
+  max-width: 30%;
+}
+
+.favouriteIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.favourite {
+  padding: 5px;
+}
